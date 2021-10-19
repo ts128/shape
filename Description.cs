@@ -2,7 +2,7 @@
 {
     abstract class Description
     {
-            public int Width { get; set; }
-            public int Shift { get; set; }
+            public int Width { get; protected set; }
+            public int Shift { get; protected set; }
     }
 }
